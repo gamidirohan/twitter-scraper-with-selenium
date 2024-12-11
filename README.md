@@ -42,7 +42,7 @@ This repository contains a Python-based Twitter scraper built with Selenium. It 
 
 ## Usage
 
-# Create an instance of the Twitter_Scraper class:
+## Create an instance of the Twitter_Scraper class:
     ```python
         from twitter_scraper import Twitter_Scraper
 
@@ -59,7 +59,7 @@ This repository contains a Python-based Twitter scraper built with Selenium. It 
         )
     ```
 
-# Log in to Twitter:
+## Log in to Twitter:
 
     ```python
     scraper.login()
@@ -68,12 +68,12 @@ This repository contains a Python-based Twitter scraper built with Selenium. It 
 
     scraper.router()
     ```
-# Access scraped data:
+## Access scraped data:
     ```python 
         print(scraper.data)
     ```
 
-# File Structure
+## File Structure
 
     scroller.py: Handles scrolling functionality on Twitter pages.
     tweet.py: Handles parsing and extracting tweet data.
